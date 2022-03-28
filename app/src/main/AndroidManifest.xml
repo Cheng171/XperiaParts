@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cramfs28.xperiaparts">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.DeviceDefault.Settings">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity
+            android:name=".SettingsActivity"
+            android:label="@string/app_name">
+            </activity>
+         <activity
+		    android:name=".IconShapeSettingsActivity"
+            android:label="@string/icon_shape_title">
+		 </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/about_title">
+        </activity>
+        <activity
+            android:name=".LabActivity"
+            android:label="@string/lab_title">
+        </activity>
+        <activity
+            android:name=".GloveSettingsActivity"
+            android:label="@string/glove_title">
+        </activity>
+        <activity
+            android:name=".StatusBarSettingsActivity"
+            android:label="@string/status_bar_title">
+        </activity>
+        <activity
+            android:name=".ColorSettingsActivity"
+            android:label="@string/color_title">
+        </activity>
+        <activity
+            android:name=".LauncherSettingsActivity"
+            android:label="@string/laucher_title">
+        </activity>
+        <activity
+            android:name=".ModulesBackupActivity"
+            android:label="@string/modules_backup_title">
+        </activity>
+        <activity
+            android:name=".QSSettingsActivity"
+            android:label="@string/qs_title">
+        </activity>
+        <activity
+            android:name=".NavBarSettingsActivity"
+            android:label="@string/navbar_title">
+        </activity>
+        <activity
+            android:name=".PrivDotSettingsActivity"
+            android:label="@string/privdot_title">
+        </activity>
+		        <activity
+            android:name=".UISquareSettingsActivity"
+            android:label="@string/uisquare_title">
+        </activity>
+    </application>
+
+</manifest>

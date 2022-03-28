@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center|top"
+	android:orientation="vertical">
+
+
+<ImageView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:src="@drawable/signal_image"
+	android:contentDescription="@string/todo" />
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="25dp"
+		android:text="@string/volte_icon_tips"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:textColor="#656565" />
+
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="horizontal">
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="@string/switch_on"
+						android:id="@+id/volteon"
+						android:layout_weight="1.0"
+						android:layout_marginEnd="5dp"
+						style="?android:attr/buttonBarButtonStyle" />
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="@string/switch_off"
+						android:layout_weight="1.0"
+						android:id="@+id/volteoff"
+						android:layout_marginStart="5dp"
+						style="?android:attr/buttonBarButtonStyle" />
+
+				</LinearLayout>
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="horizontal">
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="@string/volte_bt1"
+						android:id="@+id/voltelogo1"
+						android:layout_weight="1.0"
+						android:layout_marginEnd="5dp"
+						style="?android:attr/buttonBarButtonStyle" />
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="@string/volte_bt2"
+						android:layout_weight="1.0"
+						android:id="@+id/voltelogo2"
+						android:layout_marginStart="5dp"
+						style="?android:attr/buttonBarButtonStyle" />
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="@string/volte_bt3"
+						android:layout_weight="1.0"
+						android:id="@+id/voltelogo3"
+						android:layout_marginStart="5dp"
+						style="?android:attr/buttonBarButtonStyle" />
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="@string/volte_bt4"
+						android:layout_weight="1.0"
+						android:id="@+id/revoltelogo"
+						android:layout_marginStart="5dp"
+						style="?android:attr/buttonBarButtonStyle" />
+				</LinearLayout>
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="25dp"
+		android:text="@string/inout_tips"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:textColor="#656565" />
+
+	<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="horizontal">
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="@string/enable_bt"
+						android:id="@+id/inouton"
+						android:layout_weight="1.0"
+						android:layout_marginEnd="5dp"
+						style="?android:attr/buttonBarButtonStyle" />
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="@string/disable_bt"
+						android:layout_weight="1.0"
+						android:id="@+id/inoutoff"
+						android:layout_marginStart="5dp"
+						style="?android:attr/buttonBarButtonStyle" />
+
+				</LinearLayout>
+			</LinearLayout>
+

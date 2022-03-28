@@ -1,0 +1,46 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/lab_title">
+
+    <Preference
+        android:title="@string/style_cover_debug">
+        <intent
+            android:targetPackage="com.sonymobile.coverapp2"
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sonymobile.coverapp2.debug.SettingsDebugActivity"/>
+    </Preference>
+
+
+    <Preference
+        android:title="@string/battery_white_list">
+        <intent
+            android:targetPackage="com.android.settings"
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.android.settings.Settings$HighPowerApplicationsActivity"/>
+    </Preference>
+
+    <Preference
+        android:title="@string/notification_list">
+        <intent
+            android:targetPackage="com.android.settings"
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.android.settings.Settings$NotificationStationActivity"/>
+    </Preference>
+
+    <Preference
+        android:title="@string/systemui_turner">
+    <intent
+        android:targetPackage="com.android.systemui"
+        android:action="android.intent.action.MAIN"
+        android:targetClass="com.android.systemui.DemoMode"/>
+    </Preference>
+
+
+    <Preference
+        android:title="@string/gcm_diagnostics">
+        <intent
+            android:targetPackage="com.google.android.gms"
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.google.android.gms.gcm.GcmDiagnostics"/>
+    </Preference>
+
+</PreferenceScreen>

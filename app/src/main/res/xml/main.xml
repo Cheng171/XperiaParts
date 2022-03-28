@@ -1,0 +1,124 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/maintop_string">
+
+    <PreferenceCategory android:title="@string/icon_category" />
+
+    <Preference
+        android:title="@string/icon_shape_title"
+        android:summary="@string/icon_shape_summary">
+        <intent
+            android:targetPackage="com.cramfs28.xperiaparts"
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.cramfs28.xperiaparts.IconShapeSettingsActivity"/>
+    </Preference>
+    <!--
+    <Preference
+        android:title="@string/repainter_title"
+        android:summary="@string/repainter_summary">
+        <intent
+            android:targetPackage="dev.kdrag0n.dyntheme"
+            android:action="android.intent.action.MAIN"
+            android:targetClass="dev.kdrag0n.dyntheme.ui.main.MainActivity"/>
+    </Preference>
+-->
+    <Preference
+        android:title="@string/laucher_title"
+        android:summary="@string/launcher_summary">
+        <intent
+            android:targetPackage="com.cramfs28.xperiaparts"
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.cramfs28.xperiaparts.LauncherSettingsActivity"/>
+    </Preference>
+
+    <PreferenceCategory android:title="@string/ui_category" />
+    <Preference
+        android:title="@string/navbar_title"
+        android:summary="@string/navbar_summary">
+        <intent
+            android:targetPackage="com.cramfs28.xperiaparts"
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.cramfs28.xperiaparts.NavBarSettingsActivity"/>
+    </Preference>
+    <Preference
+        android:title="@string/uisquare_title"
+        android:summary="@string/uisquare_summary">
+        <intent
+            android:targetPackage="com.cramfs28.xperiaparts"
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.cramfs28.xperiaparts.UISquareSettingsActivity"/>
+    </Preference>
+    <PreferenceCategory android:title="@string/statusbar_category"/>
+    <Preference
+        android:title="@string/status_bar_title"
+        android:summary="@string/status_bar_summary">
+        <intent
+            android:targetPackage="com.cramfs28.xperiaparts"
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.cramfs28.xperiaparts.StatusBarSettingsActivity"/>
+    </Preference>
+    <Preference
+        android:title="@string/qs_title"
+        android:summary="@string/qs_summary">
+        <intent
+            android:targetPackage="com.cramfs28.xperiaparts"
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.cramfs28.xperiaparts.QSSettingsActivity"/>
+    </Preference>
+    <Preference
+        android:title="@string/privdot_title"
+        android:summary="@string/privdot_summary">
+        <intent
+            android:targetPackage="com.cramfs28.xperiaparts"
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.cramfs28.xperiaparts.PrivDotSettingsActivity"/>
+    </Preference>
+
+
+   <PreferenceCategory android:title="@string/function_category" />
+<!--
+    <Preference
+        android:title="@string/glove_title"
+        android:summary="@string/glove_summary">
+    <intent
+        android:targetPackage="com.cramfs28.xperiaparts"
+        android:action="android.intent.action.MAIN"
+        android:targetClass="com.cramfs28.xperiaparts.GloveSettingsActivity"/>
+    </Preference>
+-->
+    <Preference
+        android:title="@string/color_title"
+        android:summary="@string/color_summary">
+        <intent
+            android:targetPackage="com.cramfs28.xperiaparts"
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.cramfs28.xperiaparts.ColorSettingsActivity"/>
+    </Preference>
+
+    <Preference
+        android:title="@string/modules_backup_title"
+        android:summary="@string/modules_backup_summary">
+        <intent
+            android:targetPackage="com.cramfs28.xperiaparts"
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.cramfs28.xperiaparts.ModulesBackupActivity"/>
+    </Preference>
+
+    <Preference
+        android:title="@string/lab_title"
+        android:summary="@string/lab_summary">
+        <intent
+            android:targetPackage="com.cramfs28.xperiaparts"
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.cramfs28.xperiaparts.LabActivity"/>
+    </Preference>
+
+    <Preference
+        android:title="@string/about_title"
+        android:summary="@string/about_summary">
+        <intent
+            android:targetPackage="com.cramfs28.xperiaparts"
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.cramfs28.xperiaparts.AboutActivity"/>
+    </Preference>
+    
+</PreferenceScreen>

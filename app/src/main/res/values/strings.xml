@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Xperia Parts</string>
+    <!-- Settings Activity Title -->
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <!-- Main UI Settings -->
+    <string name="maintop_string">XPERIA™ Android S Settings</string>
+    <string name="apperance_category">Apperance</string>
+    <string name="function_category">Function</string>
+    <string name="icon_shape_title">Icon Shape Settings</string>
+    <string name="icon_shape_summary">Icon Shape Summary</string>
+    <string name="status_bar_title">Status Bar Settings</string>
+    <string name="status_bar_summary">Status Bar Summary</string>
+    <string name="laucher_title">Launcher Settings</string>
+    <string name="launcher_summary">Launcher Summary</string>
+    <string name="glove_title">Glove Settings</string>
+    <string name="glove_summary">Glove Summary</string>
+    <string name="color_title">Color Settings</string>
+    <string name="color_summary">Color Summary</string>
+    <string name="lab_title">Lab Settings</string>
+    <string name="lab_summary">Lab Summary</string>
+    <string name="qs_title">QS Settings</string>
+    <string name="qs_summary">QS Summary</string>
+    <string name="navbar_title">NavBar Settings</string>
+    <string name="navbar_summary">NavBar Summary</string>
+    <string name="privdot_title">PrivDot Settings</string>
+    <string name="privdot_summary">PrivDot Summary</string>
+    <string name="uisquare_title">UISquare Settings</string>
+    <string name="uisquare_summary">UISquare Summary</string>
+    <string name="about_title">About XPERIA™ Settings</string>
+    <string name="about_summary">More information about this app</string>
+    <string name="change_icon_shape_title">Switching icon shapes requires root permission!</string>
+    <string name="change_icon_shape_summary">Tips:\n\n· This function is only for testing, and there may be incomplete adaptation.\n</string>
+    <string name="systemui_turner">SystemUI Turner</string>
+    <string name="notification_list">Notification Center</string>
+    <string name="battery_white_list">Battery Whitelist</string>
+    <string name="style_cover_debug">StyleCover Debug</string>
+    <string name="gcm_diagnostics">FCM Diagnostics</string>
+    <string name="apply">Apply</string>
+    <string name="restore">Restore</string>
+    <string name="color_adjust_summary">Please enter the screen color you want to adjust:</string>
+    <string name="modules_backup_title">Backup Magisk Modules</string>
+    <string name="modules_backup_summary">Backup all Magisk modules to Storage</string>
+    <string name="modules_backup_tips">Backup all Magisk modules to Storage/_MODULES folder.</string>
+    <string name="glove_mode_tips">Turning on glove mode can increase the sensitivity of the screen\n\n1.Glove mode may cause misoperation. If this function is turned on, you will see a small dot when touching. You can turn it off in the developer options or the shortcut switch in the status bar. \n2.When the glove mode is turned off, the touch dot will also disappear.</string>
+    <string name="switch_on">On</string>
+    <string name="switch_off">Off</string>
+    <string name="wallpaper_scale_tips">When you pull down the notification bar in the system or use gestures to return to the desktop, the wallpaper will automatically \"zoom\" animation effect.</string>
+    <string name="backup_modules">Backup modules</string>
+    <string name="restore_modules">Restore modules</string>
+    <string name="delete_backup">Delete Backup MODULES</string>
+    <string name="volte_icon_tips">You can freely turn on or off the volte icon in the StatusBar, or change the icon style for it!</string>
+    <string name="volte_bt1">Rectangle</string>
+    <string name="volte_bt2">Square</string>
+    <string name="volte_bt3">HD Logo</string>
+    <string name="volte_bt4">Restore</string>
+    <string name="inout_tips">You can remove the arrow icon next to WiFi or Signal icon to make more space.</string>
+    <string name="qs_2c">2 Columns</string>
+    <string name="qs_3c">3 Columns</string>
+    <string name="qs_3r">3 Rows</string>
+    <string name="qs_4r">4 Rows</string>
+    <string name="qs_5r">5 Rows</string>
+    <string name="qs_normaltext">Normal Text</string>
+    <string name="qs_smalltext">Small Text</string>
+    <string name="qs_switch_tips">You can customize the StatusBar QuickSwitch, set the number of rows and columns of icons, and change the font size.</string>
+    <string name="uisquare_tips">Switch the style of the system UI, including square corners or rounded corners.</string>
+    <string name="ui_square_bt">Square</string>
+    <string name="ui_rounded_bt">Rounded</string>
+    <string name="icon_category">Icon Settings</string>
+    <string name="ui_category">UI Settings</string>
+    <string name="statusbar_category">Status Bar Settings</string>
+    <string name="repainter_title">Repainter</string>
+    <string name="repainter_summary">System accent settings</string>
+    <string name="enable_bt">Enable</string>
+    <string name="disable_bt">Disable</string>
+    <string name="hide_nav_bar_tips">Hide Nav Bar</string>
+    <string name="replace_nougat_tips">Restore old navigation keys</string>
+    <string name="hide_nav_bt">Hide Bar</string>
+    <string name="show_nav_bt">Show Bar</string>
+    <string name="priv_dot_tips">When sensitive permissions such as microphone or camera are in use, an indicator will be displayed in the status bar.</string>
+    <string name="_1_028">1.028</string>
+    <string name="hide_bt">Hide</string>
+    <string name="show_bt">Show</string>
+    <string name="todo">TODO</string>
+</resources>

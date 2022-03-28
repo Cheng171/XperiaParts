@@ -1,0 +1,49 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:title="About">
+    <PreferenceScreen
+        android:key="logo"
+        android:layout="@layout/about_logo"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+    <Preference
+        android:icon="@drawable/xe"
+    android:title="XPERIA MOD S" 
+    android:summary="Version 0.5-beta1" >
+    </Preference>
+    <Preference
+        android:icon="@drawable/about_shion"
+        android:title="ShionKagurazaka"
+        android:summary="Maintain:Xperia 1 II" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://github.com/ShionKagurazaka" />
+    </Preference>
+
+
+    <Preference
+        android:icon="@drawable/about_cramfs28"
+    android:title="cramfs28" 
+    android:summary="Maintain:Xperia 1 II" >
+    <intent
+    android:action="android.intent.action.VIEW"
+    android:data="https://github.com/Cheng171" />
+    </Preference>
+
+    <Preference
+        android:icon="@drawable/about_tenun"
+    android:title="Tenun" 
+    android:summary="Maintain:Xperia 5 II" >
+    <intent
+    android:action="android.intent.action.VIEW"
+    android:data="https://www.coolapk.com/u/7274088" />
+    </Preference>
+    <Preference
+        android:icon="@drawable/about_nekojam"
+        android:title="NekoJam"
+        android:summary="Maintain:Xperia 5 II" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://www.coolapk.com/u/12168018" />
+    </Preference>
+
+</PreferenceScreen>

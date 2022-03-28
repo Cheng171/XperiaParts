@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center|top"
+	android:orientation="vertical">
+
+
+	<ImageView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:src="@drawable/navbar_image"
+		android:contentDescription="@string/todo"
+		tools:ignore="ContentDescription" />
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="25dp"
+		android:text="@string/hide_nav_bar_tips"
+		android:gravity="center|top"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:textColor="#656565" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:orientation="horizontal">
+
+		<Button
+			android:id="@+id/disable_line_height"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.0"
+			android:layout_marginLeft="5dp"
+			android:layout_marginRight="5dp"
+			android:text="@string/hide_nav_bt"
+			style="?android:attr/buttonBarButtonStyle" />
+
+		<Button
+			android:id="@+id/disable_line"
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			style="?android:attr/buttonBarButtonStyle" />
+
+		<Button
+			android:id="@+id/enable_line_height"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.0"
+			android:layout_marginLeft="5dp"
+			android:layout_marginRight="5dp"
+			android:text="@string/show_nav_bt"
+			style="?android:attr/buttonBarButtonStyle" />
+	</LinearLayout>
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="25dp"
+		android:text="@string/replace_nougat_tips"
+		android:gravity="center|top"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:textColor="#656565" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:orientation="horizontal">
+
+		<Button
+			android:id="@+id/enable_nougatnav"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.0"
+			android:layout_marginLeft="5dp"
+			android:layout_marginRight="5dp"
+			android:text="@string/enable_bt"
+			style="?android:attr/buttonBarButtonStyle" />
+
+		<Button
+			android:id="@+id/disable_nougatnav"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.0"
+			android:layout_marginLeft="5dp"
+			android:layout_marginRight="5dp"
+			android:text="@string/disable_bt"
+			style="?android:attr/buttonBarButtonStyle" />
+	</LinearLayout>
+</LinearLayout>
+

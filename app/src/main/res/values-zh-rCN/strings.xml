@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">高级设置</string>
+    <!-- Settings Activity Title -->
+    <string name="title_activity_settings">设置</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">信息</string>
+    <string name="sync_header">同步</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">您的登录</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <!-- Main UI Settings -->
+    <string name="maintop_string">XPERIA™ 设置</string>
+    <string name="apperance_category">外观</string>
+    <string name="function_category">功能</string>
+    <string name="icon_shape_title">图标形状设置</string>
+    <string name="icon_shape_summary">修改全局图标形状</string>
+    <string name="status_bar_title">状态栏图标设置</string>
+    <string name="status_bar_summary">自定义状态栏图标显示</string>
+    <string name="laucher_title">桌面设置</string>
+    <string name="launcher_summary">调整桌面壁纸缩放</string>
+    <string name="glove_title">手套模式</string>
+    <string name="glove_summary">开启手套模式可以增加屏幕的灵敏度</string>
+    <string name="color_title">色彩鲜艳度</string>
+    <string name="color_summary">调整屏幕的色彩鲜艳度，但与大师模式冲突</string>
+    <string name="lab_title">实验室</string>
+    <string name="lab_summary">提供更多可调试的测试开关</string>
+    <string name="about_title">关于</string>
+    <string name="about_summary">此应用的更多信息</string>
+    <string name="change_icon_shape_title">切换图标形状需要Root权限！</string>
+    <string name="change_icon_shape_summary">提示:\n\n· 此功能可能在系统桌面上替换不完全。\n</string>
+    <string name="systemui_turner">系统界面调谐器</string>
+    <string name="notification_list">通知日志</string>
+    <string name="battery_white_list">电池优化白名单</string>
+    <string name="style_cover_debug">保护壳高级设置</string>
+    <string name="apply">应用</string>
+    <string name="restore">还原</string>
+    <string name="color_adjust_summary">请输入您要调整的屏幕鲜艳度：</string>
+    <string name="gcm_diagnostics">FCM 推送服务状态</string>
+    <string name="modules_backup_title">备份模块</string>
+    <string name="modules_backup_summary">备份所有已安装Magisk模块到内部存储</string>
+    <string name="modules_backup_tips">备份所有已安装的Magisk模块(包括riru模块)到内部存储/_MODULES文件夹\n(恢复前不建议安装任何模块)</string>
+    <string name="qs_title">状态栏快捷开关设置</string>
+    <string name="qs_summary">调整状态栏快捷开关行列数</string>
+    <string name="navbar_title">导航栏设置</string>
+    <string name="navbar_summary">显示隐藏小白条，改变三键导航样式</string>
+    <string name="privdot_title">隐私权限提示设置</string>
+    <string name="privdot_summary">显示或隐藏状态栏的隐私提示块</string>
+    <string name="uisquare_title">全局UI形状</string>
+    <string name="uisquare_summary">切换全局UI形状为方形、圆形</string>
+    <string name="glove_mode_tips">开启手套模式可以增加屏幕的灵敏度\\n\\n· 手套模式可能会造成误操作，如果此功能开启你会在触摸时看到一个小圆点，你可以在开发者选项或者状态栏的快捷开关中关闭它。\\n· 关闭手套模式后触摸小圆点也会消失。</string>
+    <string name="switch_on">开启</string>
+    <string name="switch_off">关闭</string>
+    <string name="wallpaper_scale_tips">在系统中下拉通知栏或者使用手势返回桌面时，壁纸将出现自动 “缩放” 的动画效果。（重启后生效）</string>
+    <string name="backup_modules">备份所有模块</string>
+    <string name="volte_icon_tips">开启或者关闭位于状态栏的VOLTE图标，也可以为其更换图标样式。</string>
+    <string name="volte_bt1">长方形</string>
+    <string name="volte_bt2">正方形</string>
+    <string name="volte_bt3">简约风</string>
+    <string name="volte_bt4">还原</string>
+    <string name="inout_tips">点击启用后将去除WLAN和信号图标旁表示网络活动情况的箭头，为状态栏腾出更多空间。（重启后生效）</string>
+    <string name="restore_modules">还原所有模块</string>
+    <string name="delete_backup">删除已备份的文件</string>
+    <string name="qs_2c">两列</string>
+    <string name="qs_3c">三列</string>
+    <string name="qs_3r">三行</string>
+    <string name="qs_4r">四行</string>
+    <string name="qs_5r">五行</string>
+    <string name="qs_normaltext">标准文字</string>
+    <string name="qs_smalltext">细小文字</string>
+    <string name="qs_switch_tips">自定义状态栏快捷设置图标的行数和列数，以及修改字体大小</string>
+    <string name="uisquare_tips">切换系统UI的风格，包括音量调节拉杆，状态栏快捷设置图标，亮度调节拉杆，状态栏通知等。</string>
+    <string name="ui_square_bt">全局方形</string>
+    <string name="ui_rounded_bt">全局圆润</string>
+    <string name="icon_category">图标和颜色</string>
+    <string name="ui_category">外观与界面</string>
+    <string name="statusbar_category">状态栏与快捷开关</string>
+    <string name="repainter_title">系统强调色设置</string>
+    <string name="repainter_summary">调整系统强调色，壁纸智能取色</string>
+    <string name="enable_bt">启用</string>
+    <string name="disable_bt">禁用</string>
+    <string name="hide_nav_bar_tips">如图2，隐藏小白条，降低键盘高度（需要重启生效）</string>
+    <string name="replace_nougat_tips">如图1，使用Sony Android 5-7 时期的导航键（仅限三键导航）</string>
+    <string name="hide_nav_bt">隐藏小白条</string>
+    <string name="show_nav_bt">显示小白条</string>
+    <string name="priv_dot_tips">麦克风或摄像头等敏感权限处于使用状态时，状态栏中会显示指示器</string>
+    <string name="todo">TODO</string>
+    <string name="_1_028">1.028</string>
+    <string name="hide_bt">隐藏</string>
+    <string name="show_bt">显示</string>
+</resources>

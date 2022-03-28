@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<ScrollView
+		android:layout_height="match_parent"
+		android:layout_width="match_parent">
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="vertical"
+			android:padding="25dp"
+			android:gravity="center">
+
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="vertical"
+				android:layout_marginTop="25dp">
+
+				<ImageView
+					android:layout_width="match_parent"
+					android:layout_height="141dp"
+					android:src="@drawable/privacy_dot_image" />
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="horizontal">
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="启用隐私权限提示"
+						android:id="@+id/pvopen"
+
+						android:layout_weight="1.0"
+
+						android:layout_marginRight="5dp"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="禁用隐私权限提示"
+						android:layout_weight="1.0"
+						android:id="@+id/pvclose"
+
+						android:layout_marginLeft="5dp"/>
+
+				</LinearLayout>
+
+				<View
+					android:layout_width="match_parent"
+					android:layout_height="1dp"
+					android:background="?android:attr/listDivider" />
+
+				<View
+					android:layout_width="match_parent"
+					android:layout_height="1dp"
+					android:background="?android:attr/listDivider" />
+
+				<ImageView
+					android:layout_width="match_parent"
+					android:layout_height="185dp"
+					android:src="@drawable/qs" />
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="horizontal">
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="两行"
+						android:layout_weight="1.0"
+						android:id="@+id/qs2c"
+
+						android:layout_marginRight="5dp"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="三行"
+						android:layout_weight="1.0"
+						android:id="@+id/qs3c"
+						android:layout_marginLeft="5dp"/>
+
+				</LinearLayout>
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="horizontal">
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="三列"
+						android:layout_weight="1.0"
+						android:id="@+id/qs3r"
+
+						android:layout_marginRight="5dp"/>
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="四列"
+						android:layout_weight="1.0"
+						android:id="@+id/qs4r"
+						android:layout_marginLeft="5dp"
+						android:layout_marginRight="5dp"/>
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="五列"
+						android:layout_weight="1.0"
+						android:id="@+id/qs5r"
+						android:layout_marginLeft="5dp"/>
+
+				</LinearLayout>
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="horizontal">
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="细小文字"
+						android:id="@+id/textsmall"
+
+						android:layout_weight="1.0"
+
+						android:layout_marginRight="5dp"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="标准字号"
+						android:layout_weight="1.0"
+						android:id="@+id/textbig"
+
+						android:layout_marginLeft="5dp"/>
+
+				</LinearLayout>
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="horizontal">
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="全局方角"
+						android:id="@+id/square"
+
+						android:layout_weight="1.0"
+
+						android:layout_marginRight="5dp"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="默认圆角"
+						android:layout_weight="1.0"
+						android:id="@+id/round"
+
+						android:layout_marginLeft="5dp"/>
+
+				</LinearLayout>
+			</LinearLayout>
+
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+				<ImageView
+					android:layout_width="match_parent"
+					android:layout_height="185dp"
+					android:src="@drawable/qs"
+					android:contentDescription="@string/todo"
+					tools:ignore="ContentDescription" />
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="25dp"
+					android:text="@string/qs_switch_tips"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:textColor="#656565" />
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="horizontal">
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="@string/qs_2c"
+						android:layout_weight="1.0"
+						android:id="@+id/qs2c"
+
+						android:layout_marginEnd="5dp"
+						style="?android:attr/buttonBarButtonStyle" />
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="@string/qs_3c"
+						android:layout_weight="1.0"
+						android:id="@+id/qs3c"
+						android:layout_marginStart="5dp"
+						style="?android:attr/buttonBarButtonStyle" />
+
+				</LinearLayout>
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="@string/qs_smalltext"
+			android:id="@+id/textsmall"
+
+			android:layout_weight="1.0"
+
+			android:layout_marginEnd="5dp"
+			style="?android:attr/buttonBarButtonStyle" />
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="@string/qs_normaltext"
+			android:layout_weight="1.0"
+			android:id="@+id/textbig"
+
+			android:layout_marginStart="5dp"
+			style="?android:attr/buttonBarButtonStyle" />
+
+	</LinearLayout>
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="horizontal">
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="@string/qs_3r"
+						android:layout_weight="1.0"
+						android:id="@+id/qs3r"
+
+						android:layout_marginEnd="5dp"
+						style="?android:attr/buttonBarButtonStyle" />
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="@string/qs_4r"
+						android:layout_weight="1.0"
+						android:id="@+id/qs4r"
+						android:layout_marginLeft="5dp"
+						android:layout_marginRight="5dp"
+						style="?android:attr/buttonBarButtonStyle" />
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="@string/qs_5r"
+						android:layout_weight="1.0"
+						android:id="@+id/qs5r"
+						android:layout_marginStart="5dp"
+						style="?android:attr/buttonBarButtonStyle" />
+
+				</LinearLayout>
+
+
+			</LinearLayout>
+
+
+

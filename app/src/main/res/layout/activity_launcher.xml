@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center|top"
+	android:orientation="vertical">
+
+	<ImageView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:src="@drawable/wallpaper_scale"
+		android:contentDescription="@string/todo" />
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/wallpaper_scale_tips"
+		android:textColor="#616161" />
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:orientation="horizontal">
+
+				<Button
+					android:id="@+id/disable_wallpaperscale"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp"
+					android:text="@string/disable_bt"
+					style="?android:attr/buttonBarButtonStyle" />
+
+				<Button
+					android:id="@+id/enable_wallpaperscale"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp"
+					android:text="@string/enable_bt"
+					style="?android:attr/buttonBarButtonStyle" />
+			</LinearLayout>
+</LinearLayout>
+
