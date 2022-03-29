@@ -89,6 +89,8 @@ public class StatusBarSettingsActivity extends Activity implements OnClickListen
 				break;
 
 
+
+
 			case R.id.inouton:
 				//点击启用inout
 				execShell("mv /data/adb/modules/guangai_at52_12/system/system_ext/priv-app/SystemUI/SystemUI.apk.disinout /data/adb/modules/guangai_at52_12/system/system_ext/priv-app/SystemUI/SystemUI.apk");

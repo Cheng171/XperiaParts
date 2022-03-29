@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Xperia Parts</string>
     <!-- Settings Activity Title -->
     <string name="title_activity_settings">SettingsActivity</string>
@@ -22,27 +22,27 @@
     <string name="apperance_category">Apperance</string>
     <string name="function_category">Function</string>
     <string name="icon_shape_title">Icon Shape Settings</string>
-    <string name="icon_shape_summary">Icon Shape Summary</string>
+    <string name="icon_shape_summary">Set Global icon shape</string>
     <string name="status_bar_title">Status Bar Settings</string>
-    <string name="status_bar_summary">Status Bar Summary</string>
+    <string name="status_bar_summary">Change the icon display on the status bar</string>
     <string name="laucher_title">Launcher Settings</string>
-    <string name="launcher_summary">Launcher Summary</string>
+    <string name="launcher_summary">Change Wallpaper Max Scale</string>
     <string name="glove_title">Glove Settings</string>
     <string name="glove_summary">Glove Summary</string>
     <string name="color_title">Color Settings</string>
-    <string name="color_summary">Color Summary</string>
+    <string name="color_summary">Adjust color brilliance</string>
     <string name="lab_title">Lab Settings</string>
-    <string name="lab_summary">Lab Summary</string>
+    <string name="lab_summary">Partially adjustable switch</string>
     <string name="qs_title">QS Settings</string>
-    <string name="qs_summary">QS Summary</string>
+    <string name="qs_summary">Change the number of rows and columns of the quick set switch</string>
     <string name="navbar_title">NavBar Settings</string>
-    <string name="navbar_summary">NavBar Summary</string>
+    <string name="navbar_summary">Change Navigation Bar Style</string>
     <string name="privdot_title">PrivDot Settings</string>
-    <string name="privdot_summary">PrivDot Summary</string>
+    <string name="privdot_summary">Set privacy prompt dot</string>
     <string name="uisquare_title">UISquare Settings</string>
-    <string name="uisquare_summary">UISquare Summary</string>
-    <string name="about_title">About XPERIA™ Settings</string>
-    <string name="about_summary">More information about this app</string>
+    <string name="uisquare_summary">Change the UI to square or circular</string>
+    <string name="about_title">About XPERIA™ ExtraMod</string>
+    <string name="about_summary">More information about this project</string>
     <string name="change_icon_shape_title">Switching icon shapes requires root permission!</string>
     <string name="change_icon_shape_summary">Tips:\n\n· This function is only for testing, and there may be incomplete adaptation.\n</string>
     <string name="systemui_turner">SystemUI Turner</string>
@@ -96,4 +96,19 @@
     <string name="hide_bt">Hide</string>
     <string name="show_bt">Show</string>
     <string name="todo">TODO</string>
+    <string name="cloudy">Cloud</string>
+    <string name="cylinder">Cylinder</string>
+    <string name="flower">Flower</string>
+    <string name="heart">Heart</string>
+    <string name="hexagon">Hexagon</string>
+    <string name="leaf">Leaf</string>
+    <string name="mallow">Mallow</string>
+    <string name="pebble">Pebble</string>
+    <string name="roundedhexagon">RoundedHexagon</string>
+    <string name="roundedrect">Roundedrect</string>
+    <string name="square">Square</string>
+    <string name="squircle">Squircle</string>
+    <string name="stretched">Stretched</string>
+    <string name="taperedrect">Taperedrect</string>
+    <string name="teardrop">Teardrop</string>
 </resources>

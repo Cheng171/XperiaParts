@@ -1,14 +1,14 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:title="About">
+    android:title="@string/about_title">
     <PreferenceScreen
         android:key="logo"
         android:layout="@layout/about_logo"
         tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
     <Preference
         android:icon="@drawable/xe"
-    android:title="XPERIA MOD S" 
-    android:summary="Version 0.5-beta1" >
+    android:title="XPERIA™ ExtraMod"
+    android:summary="Version:0.5-beta1-58.2.A.0.899" >
     </Preference>
     <Preference
         android:icon="@drawable/about_shion"

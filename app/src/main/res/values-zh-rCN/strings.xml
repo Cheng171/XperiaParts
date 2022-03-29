@@ -96,4 +96,18 @@
     <string name="_1_028">1.028</string>
     <string name="hide_bt">隐藏</string>
     <string name="show_bt">显示</string>
+    <string name="cloudy">云彩</string>
+    <string name="cylinder">圆柱</string>
+    <string name="flower">花朵</string>
+    <string name="heart">心形</string>
+    <string name="hexagon">蜂巢</string>
+    <string name="leaf">树叶</string>
+    <string name="mallow">锦葵</string>
+    <string name="roundedhexagon">六边</string>
+    <string name="roundedrect">园方</string>
+    <string name="square">正方</string>
+    <string name="squircle">方圆</string>
+    <string name="stretched">拉伸</string>
+    <string name="taperedrect">花砖</string>
+    <string name="teardrop">泪珠</string>
 </resources>

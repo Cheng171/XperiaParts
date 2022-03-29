@@ -39,29 +39,33 @@
                         android:id="@+id/cloudy"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
                         android:layout_weight="1.0"
-                        android:text="@string/cloudy" />
+                        android:text="云彩" />
 
                     <Button
                         android:id="@+id/cylinder"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
                         android:layout_weight="1.0"
-                        android:text="@string/cylinder" />
+                        android:text="圆柱" />
 
                     <Button
                         android:id="@+id/flower"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
                         android:layout_weight="1.0"
-                        android:text="@string/flower" />
+                        android:text="花朵" />
 
                     <Button
                         android:id="@+id/heart"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
                         android:layout_weight="1.0"
-                        android:text="@string/heart" />
+                        android:text="心形" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -72,30 +76,34 @@
                     <Button
                         android:id="@+id/hexagon"
                         android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
                         android:layout_weight="1.0"
-                        android:text="@string/hexagon" />
+                        android:text="蜂巢" />
 
                     <Button
                         android:id="@+id/leaf"
                         android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
                         android:layout_weight="1.0"
-                        android:text="@string/leaf" />
+                        android:text="树叶" />
 
                     <Button
                         android:id="@+id/mallow"
                         android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
                         android:layout_weight="1.0"
-                        android:text="@string/mallow" />
+                        android:text="锦葵" />
 
                     <Button
                         android:id="@+id/pebble"
                         android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
                         android:layout_weight="1.0"
-                        android:text="@string/pebble" />
+                        android:text="卵石" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -106,35 +114,34 @@
                     <Button
                         android:id="@+id/roundedhexagon"
                         android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
                         android:layout_weight="1.0"
-                        android:text="@string/roundedhexagon" />
+                        android:text="六边" />
 
                     <Button
                         android:id="@+id/roundedrect"
                         android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1.0"
-                        android:text="@string/roundedrect" />
-                </LinearLayout>
-                    <LinearLayout
-                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal">
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1.0"
+                        android:text="园方" />
 
                     <Button
                         android:id="@+id/square"
                         android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
                         android:layout_weight="1.0"
-                        android:text="@string/square" />
+                        android:text="正方" />
 
                     <Button
                         android:id="@+id/squircle"
                         android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
                         android:layout_weight="1.0"
-                        android:text="@string/squircle" />
+                        android:text="方圆" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -146,31 +153,35 @@
                         android:id="@+id/stretched"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
                         android:layout_weight="1.0"
-                        android:text="@string/stretched" />
+                        android:text="拉伸" />
 
                     <Button
                         android:id="@+id/taperedrect"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
                         android:layout_weight="1.0"
-                        android:text="@string/taperedrect" />
+                        android:text="花砖" />
 
                     <Button
                         android:id="@+id/teardrop"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
                         android:layout_weight="1.0"
-                        android:text="@string/teardrop" />
+                        android:text="泪珠" />
 
-
+                    <Button
+                        android:id="@+id/restoreicon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1.0"
+                        android:text="还原" />
                 </LinearLayout>
-                <Button
-                    android:id="@+id/restoreicon"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1.0"
-                    android:text="@string/restore" />
+
             </LinearLayout>
 
             <TextView

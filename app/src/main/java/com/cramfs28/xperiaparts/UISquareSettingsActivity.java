@@ -41,12 +41,13 @@ public class UISquareSettingsActivity extends Activity implements OnClickListene
 		switch(view.getId()){
 			case R.id.square:
 				// UI方角
-				execShell("cmd overlay disable com.android.systemui.square.overlay");
 				execShell("cmd overlay enable com.android.systemui.square.overlay");
+				execShell("cmd overlay enable com.sonymobile.launcher.square");
 				break;
 			case R.id.round:
 				// UI圆角
 				execShell("cmd overlay disable com.android.systemui.square.overlay");
+				execShell("cmd overlay disable com.sonymobile.launcher.square");
 				break;
 		}
 	}
